@@ -1,0 +1,33 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+    
+    <style name="Title" >
+        <item name="textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/titlecolor</item>
+        <item name="android:textSize">@dimen/title_text</item>
+        <item name="elevation">@dimen/image_elevation</item>
+    </style>
+
+    <style name="Overview" >
+        <item name="android:textStyle">italic</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:textSize">@dimen/overview_text</item>
+        <item name="elevation">@dimen/image_elevation</item>
+    </style>
+
+    <style name="Background">
+        <item name="background">@drawable/rectangle</item>
+        <item name="elevation">@dimen/image_elevation</item>
+    </style>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:background="@drawable/rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/rvMargin"
+        android:elevation="@dimen/image_elevation"
+        android:transitionName="profile">
+
+        <ImageView
+            android:id="@+id/ivPoster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/image_margin"
+            android:layout_marginBottom="@dimen/image_margin"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/playIcon"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:layout_alignStart="@id/ivPoster"
+            android:layout_alignEnd="@id/ivPoster"
+            android:layout_margin="@dimen/image_elevation"
+            app:tint="@color/titlecolor"
+            android:layout_centerInParent="true"
+            tools:srcCompat="@drawable/ic_baseline_play_circle_outline_24"
+            android:transitionName="profile"/>
+    </RelativeLayout>
+
+</layout>

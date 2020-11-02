@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Flixter</string>
+    <string name="release_date">Release Date: </string>
+    <string name="rated_R">Rated R</string>
+</resources>

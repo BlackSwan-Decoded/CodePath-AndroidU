@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rvMargin">5dp</dimen>
+
+    <dimen name="rectWidth">1dp</dimen>
+
+    <dimen name="movies_padding">6dp</dimen>
+
+    <dimen name="image_width">120dp</dimen>
+    <dimen name="landimage_width">350dp</dimen>
+    <dimen name="image_margin">2dp</dimen>
+    <dimen name="image_elevation">12dp</dimen>
+
+    <dimen name="icon_width">20dp</dimen>
+    <dimen name="icon_height">60dp</dimen>
+
+    <dimen name="text_margin">5dp</dimen>
+    <dimen name="title_text">30sp</dimen>
+    <dimen name="overview_text">14sp</dimen>
+
+    <dimen name="youtube_height">250dp</dimen>
+    <dimen name="dtitle_text">30sp</dimen>
+</resources>

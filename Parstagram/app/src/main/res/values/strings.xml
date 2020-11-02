@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Parstagram</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Sign up</string>
+    <string name="action_sign_out">Sign out</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="description">Caption</string>
+    <string name="capture">Take Picture</string>
+    <string name="submit">Post</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_a_comment"><font size="12">Add a comment...</font></string>
+    <string name="time_created">time created</string>
+    <string name="direct_message">direct_message</string>
+</resources>

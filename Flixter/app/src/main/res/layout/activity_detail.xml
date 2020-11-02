@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        android:padding="@dimen/movies_padding"
+        tools:context=".DetailActivity">
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/player"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/youtube_height"
+            />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dtitle_text"
+            tools:text="Money Plane" />
+
+        <TextView
+            android:id="@+id/releaseDate"
+            style="@style/Overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/release_date" />
+
+        <CheckBox
+            android:id="@+id/raterRCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorAccent"
+            android:clickable="false"
+            android:text="Rated R"
+            android:textColor="@color/textcolor"
+            tools:text="@string/rated_R" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/image_elevation"
+            android:isIndicator="true"
+            android:numStars="10"
+            android:progressBackgroundTint="#FFFFFF"
+            android:progressTint="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/tvOverview"
+            style="@style/Overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:transitionName="profile"
+            tools:text="A professional thief with $40 million in debt and his family's life on the line must commit one final heist - rob a futuristic airborne casino filled with the world's most dangerous criminals." />
+    </LinearLayout>
+</layout>
